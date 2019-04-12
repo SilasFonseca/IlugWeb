@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ilug </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/carousel.css">
+<style type="text/css">
+	.MainFran{
+	background-image: url("img/fundoilug.jpg");
+    background-repeat: no-repeat;
+	}
+</style>
+</head>
+<body>
+	<!--Menu-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<div>
+			<button type="button" class="navbar-toggler">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img src="img/ilug2.jpg">
+			</a>
+		</div>
+	
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+						<a class="nav-link" href="#">Meu anuncio</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#">Sobre</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#">Contato</a>
+				</li>
+				</ul>
+		</div>
+		
+		<div>
+			<ul class="nav justify-content-end">
+				<li class="nav-item">
+					<a class="nav-link active btn-custom" href="#">Anunciar</a>
+					<span class="img-circle text-primary btn-icon"></span>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+        
+        
+	<br>
+
+<section class=" container MainFran">
+	<div class="row">
+		<div class="input-group mb-3 Buscar">
+			<div class=" col-6 col-md-3 input-group-prepend">
+				<!--Campo de seleção e Busca--> 
+				<select class="custom-select" for="inputGroupSelect01">
+					<option value="">Mostrar tudo</option>
+					<optgroup label="Residencia">
+						<option value="">Apartamento</option>
+						<option value="">Casa</option>
+						<option value="">Condomínio</option>
+					</optgroup>
+				</select>
+			</div>
+			<input class="form-control col-6 col-md-7" type="text" aria-label="Default" id="inputGroupSelect01"  placeholder="Busque Aqui" value="" />
+			<button class="btn btn-outline-secondary botaoDeBusca col-12 col-md-2" for="inputGroupSelect01" type="submit">Buscar</button>
+		</div>
+	</div>
+</section>
+
+		<!--Campo de Noticias-->
+		<h2 class="Noticias"><center>Ultimas Notícias</center></h2>
+
+	<div class="row featurette">
+        <div class="col-md-7">
+			<h2 class="featurette-heading">Condomínio Central HR</h2>
+            <p class="lead">Condomínio ao lado da praia com uma paisagem adequada ao ambiente</p>
+        </div>
+			<div class="col-md-5">
+				<img src="img/casa1.jpg" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+			</div>
+        </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+			<h2 class="featurette-heading">Condomínio Central HR</h2>
+            <p class="lead">Condomínio ao lado da praia com uma paisagem adequada ao ambiente</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="img/casa2.jpg" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+			<h2 class="featurette-heading">Condomínio Central HR</h2>
+            <p class="lead">Condomínio ao lado da praia com uma paisagem adequada ao ambiente</p>
+        </div>
+        <div class="col-md-5">
+            <img src="img/casa3.jpg" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
