@@ -1,0 +1,59 @@
+
+.imagemIlug{
+	text-align:center;
+	padding: 30;
+}
+.botaoDeBusca{
+	background-color: #09CF9E;
+	
+}
+.btn-custom {
+	color: #FFFFFF;
+	background-color:#5DEDC9;
+	padding: 10px 20px 10px 20px;
+	border-radius: 100px;
+}
+
+.btn-custom:hover{
+	    color: #FFFFFF;
+		background-color: #09CF9E;
+		border-radius: 100px;
+}
+
+.btn-icon {
+	background: #ffffff;
+}
+
+.Buscar {
+	padding: 20px;
+}
+
+
+body{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.Noticias{
+	font-family: Blippo, fantasy;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: #5DEDC9;
+}
+.Noticias::after {
+	content: '';
+	width: 150px;
+	height: 4px;
+	background: currentColor;
+	display: block;
+	margin: 0 auto;
+}
+.MainFran {
+    padding-left: 12%;
+    padding-top: 15%;
+	background: url("img/fundoilug1.jpg") no-repeat center top fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
